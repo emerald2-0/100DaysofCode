@@ -2,6 +2,7 @@
 import tweepy
 
 #Create a twitter developer account first.
+#Get started @ https://developer.twitter.com/
 
 key = '' #api key -- Find them at your app > Keys and Token 
 secret = '' #api secret -- Find them at your app > Keys and Token
