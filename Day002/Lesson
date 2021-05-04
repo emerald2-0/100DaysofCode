@@ -1,0 +1,3 @@
+Learnt Twitter api setup
+dir(object) helps one know what items can be accessed eg. dir(tweepy) shows items under tweepy package
+ssh issues, trying to troubleshoot still to access @tryhackme
