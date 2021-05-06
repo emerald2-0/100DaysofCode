@@ -1,2 +1,10 @@
-Moved on with @TryHackMe Linux Fundamenals 3 
+Moved on with @TryHackMe Linux Fundamentals 3 all about advanced file operations
+
+--use ">>" to append results into a file
+      "ln" is used to link two files
+
+use "man" to get details of a command.
+
+
 Discovered rangeforce.com. Started Splunk in the community edition.
+
