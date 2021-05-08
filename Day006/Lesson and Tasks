@@ -1,3 +1,6 @@
 Started cybertalent's Eye of Sauron in Malware Reverse engineerng
 - A .Net application to be dissasembled
 Installed JetBrains Dotpeek to dissasemble
+Python Lesson:
+ - Return only brings the value as a variable to be used later. It doesnt print to the console.
+ - List[] is used to create lists from existing iterables, but list[] processes faster
