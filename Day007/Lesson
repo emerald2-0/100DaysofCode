@@ -1,1 +1,25 @@
 Regex
+all regexes are enclosed within forward slashes.
+the circumflex accent matches the beginning of the string or line.:
+ - /^Once upon a time/ will match any line beginning with that sentence.
+the dollar sign matches the end of the string
+ - /action$/ will match any line ending with the string "ation".
+Brackets are used to match a single character from the list enclsed in them.
+ - /[abc]/will match either a b or c. They accept ranges as well
+ - /[a-f]/  /[0-6]/  /[a-f0-6]/
+asterisk is a quantifier - specifying the preceding character has to appear at least once.
+ - /[ab]\*/ will match abab, aaaaa, but will also match an empty string.
++ sign - the preceeding character will have to appear at least once.
+ - matches * except the empty strings.
+{} used when we want to specify the number of times the preceeding character should appear.
+ - If you want a string that contains 4 to 8 characters we can use: {4, 8} to validate it.
+ 
+ ***Use https://regexr.com/ to test.
+ 
+ Practiced Samples:
+ /^[A-Za-z]*$/ - Allows letters A-Z and a-z (small and caps) - check from beginning to the end of the string(^)($) - allow letters any amount of time(*)
+ 
+ /^[0-9]{10}$/ - Validates 10 digits, from beginning to end. All digits in 0 - 9
+ 
+ /[A-Za-z0-9]{3,8}$/ - Validates all letters, numbers and should be 3 to 8 characters.
+ 
