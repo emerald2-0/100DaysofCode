@@ -23,3 +23,6 @@ asterisk is a quantifier - specifying the preceding character has to appear at l
  
  /[A-Za-z0-9]{3,8}$/ - Validates all letters, numbers and should be 3 to 8 characters.
  
+ 
+ Try Hack Me: Linux fundamentals 3 room
+  - learnt on the find command
