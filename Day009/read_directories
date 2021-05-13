@@ -1,0 +1,14 @@
+import os
+import sys
+
+#print(os.getcwd())
+
+word_doc = open("the_doc", "w+")
+
+ajira_dir = r"ENTER YOUR DIRECTORY HERE"
+
+mylist = os.listdir(ajira_dir)
+
+for folder in mylist:
+    word_doc.write(str(folder)+"\n")
+    pass
