@@ -2,3 +2,9 @@
   Started vim editor lessons
   Basic functions of vim editing.
   Should create a cheatsheet after this.
+@TryHackMe
+  Learnt linux find operations
+  completed Linux fundamentals 3 room.
+  ps - shows processes
+  ps -ef - shows running processes
+  top - shows processes using system resources
