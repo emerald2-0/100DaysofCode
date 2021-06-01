@@ -18,5 +18,7 @@ Kubernetes
 To create a container using nginx image run:
   kubectl run <enter_your_specific_name_here> --image nginx
   
+ To see all running pods:
+   kubectl run pod <pod_name> -o wide
   
   
