@@ -15,4 +15,8 @@ Linux:
     echo alias <custom_alias> = <command> >> ~/.bash_aliases
     
 Kubernetes
+To create a container using nginx image run:
+  kubectl run <enter_your_specific_name_here> --image nginx
+  
+  
   
