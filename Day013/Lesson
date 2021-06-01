@@ -6,7 +6,13 @@ Linux:
     ***This is a temporary alias.*** -- the command will be stored for the current terminal only.
     
     <h>Permanent Alias</h>
+    To create a permament alias; edit the ~/.bashrc or ~/.bash_aliases file using vim or nano
+    edit as:
+      alias = <command>
+      (save with :w in vim)
     
+    quick command:
+    echo alias <custom_alias> = <command> >> ~/.bash_aliases
     
 Kubernetes
   
