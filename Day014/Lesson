@@ -5,3 +5,5 @@ Learnt the basic of command injection;
   
   Tried hosting the dvwa in windows server 2016; failed but learnt details about the Internet Information Services Manager.
   Configured default documents.
+
+Some Api basics carried forward from the previous day. Eg. Styles of APIs;Tunnel, SOAP, CRUD, REST, Graphql
