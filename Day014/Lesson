@@ -2,3 +2,6 @@ Rangeforce:
 Learnt the basic of command injection; 
   use ';' to escape and type a command in the input field.
   the best way to defend a site from this attack is through strong validation. (Not only checking the ';') in the input field
+  
+  Tried hosting the dvwa in windows server 2016; failed but learnt details about the Internet Information Services Manager.
+  Configured default documents.
